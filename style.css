@@ -1,0 +1,192 @@
+body{
+	background-image: url(images/forest.jpg);
+	color: blue;
+	text-align: center;
+	list-style: none ;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.container{
+	width:1000px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+@media (max-width: 960px){
+	.container {
+		width:700px;
+
+	}
+}
+@media (max-width: 720px){
+	.container {
+		width:500px;
+	}
+}
+@media (max-width: 540px){
+	.container  {
+		width:300px;
+		font-size: smaller;
+	}
+}
+
+h1{
+	color:#F6CACA;
+	font-family: 'Ewert', cursive;
+	font-size: 80px;
+	line-height: 1.6;
+	letter-spacing: 20px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+a{color:#F46036;
+font-size: 16px;
+transition: 0.5s ease;
+}
+
+a:hover{
+	color:#262A10;
+}
+
+h2,h3,h4,h5{
+	color:#FFE066;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin:20px;
+}
+
+h6{
+	color:#FFE066;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+
+p{
+color:#FAE8EB;
+text-align: center;
+}
+
+ol{color:#FAE8EB;
+list-style: none;
+display: center}
+
+
+i{
+	color:#F6CACA;
+	font-size: 50px;
+	letter-spacing: 40px;
+	text-underline-position: none;
+	transition-duration: 0.5s;
+
+}
+i:hover{
+	color:#262A10;
+}
+
+@media (max-width: 9600px){
+	i {font-size: 60px;
+	}
+}
+
+@media (max-width: 720px){
+	i {font-size: 30px;
+	}
+}
+
+@media (max-width: 540px){
+	i {font-size: 20px;
+		text-align: left;
+		padding: none;
+	}
+}
+
+
+
+.subdiv{
+	width:300px;
+	margin: 20px auto;
+	padding:0px 10px 30px 10px;
+	width: 50%;
+	border:1px solid white;
+	border-radius: 10px;
+	box-shadow:1px 2px 100px rgba(0,0,0,1);
+	display: inline-block;
+}
+
+.list-favorites{color: #FAE8EB;
+list-style: none;
+text-align: left;
+margin-top: 10px;
+
+}
+
+.social{
+	display:inline-flex;
+	list-style: none;
+}
+
+@media (max-width: 540px){
+	.social{display:inline;
+		padding-left: 80px;
+		font-size: 10px;}
+}
+
+
+.books{
+	list-style: none;
+	padding-right: 20px;
+	color: #FAE8EB;
+	margin: none;}
+
+
+#profile{
+	border-radius: 50%;
+	width:480px;
+	display: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+@media (max-width:960px){
+	#profile {
+		width:300px;
+	}
+}
+
+@media (max-width:720px){
+	#profile {
+		width:200px;
+	}
+}
+
+@media (max-width: 540px){
+	#profile {
+		width:100px;
+	}
+}
+
+@media (max-width:960px){
+	h1 {
+		font-size: 70px;
+	}
+}
+
+@media (max-width:720px){
+	h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 540px){
+	h1 {
+		font-size:15px;
+	}
+}
+
